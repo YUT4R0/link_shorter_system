@@ -1,0 +1,19 @@
+POST http://localhost:3333/api/links
+Content-Type: application/json
+
+{
+  "code": "fcb",
+  "url": "https://facebook.com"
+}
+
+###
+
+GET http://localhost:3333/api/links
+
+###
+
+GET http://localhost:3333/fcb
+
+###
+
+GET http://localhost:3333/api/metrics
